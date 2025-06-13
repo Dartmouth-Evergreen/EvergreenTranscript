@@ -37,7 +37,11 @@ pip install pywhispercpp pyannote-audio pyannote-whisper
 
 ### Usage
 1. Add the audio files into audio directory (wav/WAV files through git cp)
-2. Run the pipeline
+```
+Example
+scp ~/Downloads/Technical_May_26_2025_ver2.WAV f0079dw@evergreenai.cs.dartmouth.edu:/scratch/eddiebae/transcription/transcriptionEvergreen/audio/
+```
+3. Run the pipeline
 ```
 #!/bin/bash
 chmod +x run_pipeline.sh
