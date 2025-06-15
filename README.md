@@ -41,7 +41,7 @@ pip install pywhispercpp pyannote-audio pyannote-whisper
 Example
 scp ~/Downloads/Technical_May_26_2025_ver2.WAV f0079dw@evergreenai.cs.dartmouth.edu:/scratch/eddiebae/transcription/transcriptionEvergreen/audio/
 ```
-3. Run the pipeline
+3. Run the pipeline (NOTE: Before running get your hugging face key, download the dependencies, and put it in the pipeline)
 ```
 #!/bin/bash
 chmod +x run_pipeline.sh
